@@ -4,3 +4,5 @@
 
 /PresentationTier/NETCoreTemplate.AngularUI/bin
 /PresentationTier/NETCoreTemplate.AngularUI/obj
+/DataTier/NETCoreTemplate.Database/bin
+/DataTier/NETCoreTemplate.Database/obj

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="1f78cfd5-5547-4cbe-9ecc-6dc3ee1244aa" ChangeDateTime="01/09/2021 06:13:35">
+    <Property Name="ElementName" Value="[dbo].[FK_ProgrammingLanguage_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[ProgrammingLanguage]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Project_ToTable]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1151b5a6-639e-4a25-bbbe-15f92a49f806" ChangeDateTime="01/09/2021 06:13:44">
+    <Property Name="ElementName" Value="[dbo].[FK_Project_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[ProgrammingLanguage]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Project_Work]" />
+  </Operation>
+</Operations>
