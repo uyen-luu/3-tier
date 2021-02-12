@@ -6,3 +6,14 @@
 /PresentationTier/NETCoreTemplate.AngularUI/obj
 /DataTier/NETCoreTemplate.Database/bin
 /DataTier/NETCoreTemplate.Database/obj
+/ApplicationTier/NETCoreTemplate.Entity/bin
+/ApplicationTier/NETCoreTemplate.Entity/obj
+/ApplicationTier/NETCoreTemplate.Repository/bin
+/ApplicationTier/NETCoreTemplate.Repository/obj
+/ApplicationTier/NETCoreTemplate.Service/bin/Debug/netcoreapp3.1
+/ApplicationTier/NETCoreTemplate.Service/bin/Release/netcoreapp3.1
+/ApplicationTier/NETCoreTemplate.Service/obj
+/ApplicationTier/NETCoreTemplate.Web(Razor)/bin
+/ApplicationTier/NETCoreTemplate.Web(Razor)/obj
+/ApplicationTier/NETCoreTemplate.WebAPI/bin
+/ApplicationTier/NETCoreTemplate.WebAPI/obj

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>NETCoreTemplate.Web_Razor_</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NETCoreTemplate.Entity\NETCoreTemplate.Entity.csproj" />
+    <ProjectReference Include="..\NETCoreTemplate.Repository\NETCoreTemplate.Repository.csproj" />
+    <ProjectReference Include="..\NETCoreTemplate.Service\NETCoreTemplate.Service.csproj" />
+  </ItemGroup>
+
+</Project>
