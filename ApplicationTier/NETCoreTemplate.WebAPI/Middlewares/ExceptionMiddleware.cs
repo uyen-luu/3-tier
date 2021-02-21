@@ -7,8 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using NETCoreTemplate.Entity.Models;
-using NETCoreTemplate.Entity.Utilities;
+using NETCoreTemplate.Domain.Models;
+using NETCoreTemplate.Domain.Utilities;
 
 namespace NETCoreTemplate.WebAPI.Middlewares
 {

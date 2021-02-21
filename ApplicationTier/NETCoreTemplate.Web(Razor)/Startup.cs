@@ -1,21 +1,10 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
-using Microsoft.EntityFrameworkCore;
-using NETCoreTemplate.Entity.Infrastructure;
-using NETCoreTemplate.Entity.Models;
-using NETCoreTemplate.Entity.Services;
-using NETCoreTemplate.Repository.Base;
-using NETCoreTemplate.Repository.Context;
-using NETCoreTemplate.Service;
+using NETCoreTemplate.Domain.Models;
 using NETCoreTemplate.Web_Razor_.Extensions;
 
 namespace NETCoreTemplate.Web_Razor_
@@ -32,6 +21,7 @@ namespace NETCoreTemplate.Web_Razor_
             //
             // Map AppSettings section in appsettings.json file value to static classes
             configuration.GetSection("AppSettings").Get<AppSettings>(options => options.BindNonPublicProperties = true);
+            //
             Configuration = configuration;
         }
 
@@ -40,23 +30,8 @@ namespace NETCoreTemplate.Web_Razor_
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // Context
-            services.AddDbContext<DemoContext>(options =>
-            {
-                options.UseSqlServer(AppSettings.ConnectionString,
-                    sqlOptions => sqlOptions.CommandTimeout(120));
-            });
-
-            // Factory
-            services.AddFactory<IUnitOfWork>(serviceProvider => {
-                var scopedServiceProvider = serviceProvider.CreateScope().ServiceProvider;
-                var dbContext = scopedServiceProvider.GetService<DemoContext>();
-
-                return new UnitOfWork(dbContext);
-            });
-
-            // Services
-            services.AddScoped<IWorkService, WorkService>();
+            services.AddDatabase(Configuration)
+                .AddServices();
             //
             services.AddRazorPages();
         }

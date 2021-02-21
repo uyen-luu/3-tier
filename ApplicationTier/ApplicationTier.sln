@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCoreTemplate.Entity", "NETCoreTemplate.Entity\NETCoreTemplate.Entity.csproj", "{D1C2419B-AD91-44DA-A1C0-0B80F036E178}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCoreTemplate.Domain", "NETCoreTemplate.Domain\NETCoreTemplate.Domain.csproj", "{D1C2419B-AD91-44DA-A1C0-0B80F036E178}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCoreTemplate.Repository", "NETCoreTemplate.Repository\NETCoreTemplate.Repository.csproj", "{A4B6DD58-8F8F-4C7F-9C3D-CFFC39073914}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCoreTemplate.Infrastructure", "NETCoreTemplate.Infrastructure\NETCoreTemplate.Infrastructure.csproj", "{A4B6DD58-8F8F-4C7F-9C3D-CFFC39073914}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCoreTemplate.Service", "NETCoreTemplate.Service\NETCoreTemplate.Service.csproj", "{14F81040-68DF-4285-AAD5-C205CC8B9951}"
 EndProject

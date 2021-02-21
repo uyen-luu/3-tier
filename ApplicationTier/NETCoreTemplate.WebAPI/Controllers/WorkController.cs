@@ -4,8 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using NETCoreTemplate.Entity.Entities;
-using NETCoreTemplate.Entity.Services;
+using NETCoreTemplate.Domain.Entities;
+using NETCoreTemplate.Domain.Interfaces.Services;
 
 namespace NETCoreTemplate.WebAPI.Controllers
 {

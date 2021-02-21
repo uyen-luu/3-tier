@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NETCoreTemplate.Entity\NETCoreTemplate.Entity.csproj" />
-    <ProjectReference Include="..\NETCoreTemplate.Repository\NETCoreTemplate.Repository.csproj" />
+    <ProjectReference Include="..\NETCoreTemplate.Domain\NETCoreTemplate.Domain.csproj" />
+    <ProjectReference Include="..\NETCoreTemplate.Infrastructure\NETCoreTemplate.Infrastructure.csproj" />
     <ProjectReference Include="..\NETCoreTemplate.Service\NETCoreTemplate.Service.csproj" />
   </ItemGroup>
 

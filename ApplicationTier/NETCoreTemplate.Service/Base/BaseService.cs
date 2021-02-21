@@ -3,16 +3,14 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
-using AutoMapper;
 using Microsoft.EntityFrameworkCore;
-using NETCoreTemplate.Entity.Infrastructure;
+using NETCoreTemplate.Domain.Interfaces;
 
 namespace NETCoreTemplate.Service.Base
 {
     public abstract class BaseService : IDisposable
     {
         protected readonly Func<IUnitOfWork> UnitOfWorkFactory;
-        protected readonly IMapper Mapper;
 
         /// <summary>
         /// This UnitOfWork only available inside the ExecuteTransaction methods
@@ -42,12 +40,6 @@ namespace NETCoreTemplate.Service.Base
         protected BaseService(Func<IUnitOfWork> unitOfWorkFactory)
         {
             UnitOfWorkFactory = unitOfWorkFactory;
-        }
-
-        protected BaseService(Func<IUnitOfWork> unitOfWorkFactory, IMapper mapper)
-        {
-            UnitOfWorkFactory = unitOfWorkFactory;
-            Mapper = mapper;
         }
 
         /// <summary>

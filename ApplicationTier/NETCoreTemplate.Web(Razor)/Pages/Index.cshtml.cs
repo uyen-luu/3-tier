@@ -5,8 +5,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using NETCoreTemplate.Entity.Entities;
-using NETCoreTemplate.Entity.Services;
+using NETCoreTemplate.Domain.Entities;
+using NETCoreTemplate.Domain.Interfaces.Services;
 
 namespace NETCoreTemplate.Web_Razor_.Pages
 {

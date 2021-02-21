@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using NETCoreTemplate.Entity.Entities;
-using NETCoreTemplate.Entity.Infrastructure;
-using NETCoreTemplate.Entity.Services;
-using NETCoreTemplate.Repository;
+using NETCoreTemplate.Domain.Entities;
+using NETCoreTemplate.Domain.Interfaces;
+using NETCoreTemplate.Domain.Interfaces.Services;
 using NETCoreTemplate.Service.Base;
 
 namespace NETCoreTemplate.Service
