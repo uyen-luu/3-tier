@@ -21,3 +21,19 @@
 /ApplicationTier/NETCoreTemplate.Domain/obj
 /ApplicationTier/NETCoreTemplate.Infrastructure/bin
 /ApplicationTier/NETCoreTemplate.Infrastructure/obj
+/ApplicationTier/ApplicationTier.Domain/bin
+/ApplicationTier/ApplicationTier.Domain/obj
+/ApplicationTier/ApplicationTier.Infrastructure/bin
+/ApplicationTier/ApplicationTier.Infrastructure/obj
+/ApplicationTier/ApplicationTier.Service/bin
+/ApplicationTier/ApplicationTier.Service/obj
+/ApplicationTier/ApplicationTier.WebAPI/bin
+/ApplicationTier/ApplicationTier.WebAPI/obj
+/ApplicationTier/ApplicationTier.WebAPI/Properties/PublishProfiles
+/ApplicationTier/ApplicationTier.WebAPI/Properties/ServiceDependencies/AvalonWeb20200626142129 - Web Deploy
+/DataTier/DataTier.Database/bin
+/DataTier/DataTier.Database/obj
+/DataTier/DataTier.SqlServer/bin
+/DataTier/DataTier.SqlServer/obj
+/PresentationTier/PresentationTier.AngularUI/bin
+/PresentationTier/PresentationTier.AngularUI/obj

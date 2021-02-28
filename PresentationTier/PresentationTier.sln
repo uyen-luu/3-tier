@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCoreTemplate.AngularUI", "NETCoreTemplate.AngularUI\NETCoreTemplate.AngularUI.csproj", "{A23C0E98-BFB0-4DEF-B79E-6A292D3AC1EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation.AngularUI", "PresentationTier.AngularUI\Presentation.AngularUI.csproj", "{A23C0E98-BFB0-4DEF-B79E-6A292D3AC1EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
