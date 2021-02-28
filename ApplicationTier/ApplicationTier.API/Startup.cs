@@ -40,12 +40,15 @@ namespace ApplicationTier.API
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                // Move swagger out of this if block if use want to use it on production
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ApplicationTier.API v1"));
             }
 
-            app.UseHttpsRedirection();
-
+            // Auto redirect to https
+            //app.UseHttpsRedirection();
+            // Allow external access
+            app.UseCors("CorsPolicy");
             app.UseRouting();
 
             app.UseAuthorization();

@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
-import {HttpClient} from "@angular/common/http";
-import {environment} from "../environments/environment";
+import {HttpClient} from '@angular/common/http';
+import {environment} from '../environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -15,6 +15,6 @@ export class AppComponent {
     this.httpClient.get(`${environment.baseUrl}/api/work`)
       .subscribe(works => {
         this.works = works;
-      })
+      });
   }
 }
