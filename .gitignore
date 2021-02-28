@@ -37,3 +37,5 @@
 /DataTier/DataTier.SqlServer/obj
 /PresentationTier/PresentationTier.AngularUI/bin
 /PresentationTier/PresentationTier.AngularUI/obj
+/ApplicationTier/ApplicationTier.API/bin/Debug/net5.0
+/ApplicationTier/ApplicationTier.API/obj
