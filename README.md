@@ -1,3 +1,13 @@
+<h1 align="center">Welcome to Three-tier_architecture_sample 👋</h1>
+<p>
+</p>
+
+## Author
+
+👤 **Uyen Luu**
+
+* Article: https://enlabsoftware.com/development/how-to-build-and-deploy-a-3-tier-architecture-application-with-c-sharp.html
+
 ## Deploy the Data tier
 1. Right-click and select Publish
 2. Enter conection and type the DatabaseName then click to publish
@@ -15,3 +25,5 @@ Scaffold-DbContext "Data Source=SERVER;Initial Catalog=DATABASE;Persist Security
 3. run "npm run build"
 4. Go to dist folder and copy all Code
 5. Deploy the code to the machine of Presentation tier
+
+Give a ⭐️ if this project helped you!
